@@ -1,0 +1,6 @@
+<button (click)="translator.setLanguage(x)" *ngFor="let x of ['ar','en','de']">{{x|tr}}</button>
+
+<h1>Language: {{translator.lang}} : {{translator.lang|tr}}</h1>
+<h1>Sign in: {{'sign_in'|tr}}</h1>
+<h1>Sign up: {{'sign_up'|tr}}</h1>
+<h1>Direction: {{translator.dir}}</h1>
